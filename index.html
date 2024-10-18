@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Speech API example</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+      <h1>Web Speech API example</h1>
+      <p>Click the button and start speaking</p>
+      <button id="recording-button">Start recording</button>
+      <div id="transcription-result"></div>
+      <p id="error-message" hidden aria-hidden="true">
+        Button was removed<br>Your browser doesn't support Speech Recognition with the Web Speech API
+      </p>
+    <script src="speechAPI.js"></script>
+  </body>
+</html>

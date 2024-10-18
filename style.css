@@ -1,0 +1,31 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#transcription-result {
+  font-size: 18px;
+  color: #5e5e5e;
+}
+#transcription-result .final {
+  color: #000;
+}
+#error-message {
+  color: #ff0000;
+}
+button {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  background: #2f2ff2;
+  width: 220px;
+  border-radius: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  background: #2f70f2;
+}
