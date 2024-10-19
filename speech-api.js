@@ -10,10 +10,10 @@ window.addEventListener("DOMContentLoaded", () => {
     recognition.interimResults = true;
 
     const onResult = (event) => {
-      transcriptionResult.innerHTML = "";
+      transcriptionResult.textContent = "";
       for (const result of event.results) {
         const text = document.createTextNode(result[0].transcript);
-        
+
         const p = document.createElement("p");
         p.appendChild(text);
         if (result.isFinal) {
